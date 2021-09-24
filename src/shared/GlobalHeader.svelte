@@ -1,13 +1,17 @@
-<script>
+<script lang="ts">
 	// import Button from './components/Button.svelte';
 	import HeaderItem from './components/HeaderItem.svelte';
+
+	function leaderboard() {
+		document.location.href = '/leaderboard';
+	}
 </script>
 
 <div class="header">
 	<a href="/">SrsVnture</a>
 	<div class="spacer" />
-	<HeaderItem icon="star">Leaderboard</HeaderItem>
-	<HeaderItem icon="face">Charts</HeaderItem>
+	<HeaderItem icon="star" clickevent={leaderboard}>Leaderboard</HeaderItem>
+	<!-- <HeaderItem icon="face">Charts</HeaderItem> -->
 	<!-- <div class="rightside">
 		<Button action={() => (document.location.href = 'signin')}>Login</Button>
 	</div> -->

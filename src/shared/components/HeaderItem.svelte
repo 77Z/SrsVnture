@@ -1,8 +1,9 @@
 <script>
 	export let icon = 'star';
+	export function clickevent() {}
 </script>
 
-<button>
+<button on:click={clickevent}>
 	<div class="material-icons">{icon}</div>
 	<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 	<slot />
