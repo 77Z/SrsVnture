@@ -6,8 +6,8 @@
 <div class="header">
 	<a href="/">SrsVnture</a>
 	<div class="spacer" />
-	<HeaderItem>Leaderboard</HeaderItem>
-
+	<HeaderItem icon="star">Leaderboard</HeaderItem>
+	<HeaderItem icon="face">Charts</HeaderItem>
 	<!-- <div class="rightside">
 		<Button action={() => (document.location.href = 'signin')}>Login</Button>
 	</div> -->

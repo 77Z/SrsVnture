@@ -1,5 +1,9 @@
+<script>
+	export let icon = 'star';
+</script>
+
 <button>
-	<div class="material-icons">star</div>
+	<div class="material-icons">{icon}</div>
 	<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 	<slot />
 </button>
