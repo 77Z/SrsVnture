@@ -3,6 +3,7 @@
 	import HeaderItem from './components/HeaderItem.svelte';
 
 	function leaderboard() {
+		console.log('lol');
 		document.location.href = '/leaderboard';
 	}
 </script>
@@ -10,7 +11,7 @@
 <div class="header">
 	<a href="/">SrsVnture</a>
 	<div class="spacer" />
-	<HeaderItem icon="star" clickevent={leaderboard}>Leaderboard</HeaderItem>
+	<HeaderItem icon="star" action={leaderboard}>Leaderboard</HeaderItem>
 	<!-- <HeaderItem icon="face">Charts</HeaderItem> -->
 	<!-- <div class="rightside">
 		<Button action={() => (document.location.href = 'signin')}>Login</Button>
